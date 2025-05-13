@@ -9,7 +9,7 @@ generator.onclick = function () {
     const minn = Number(document.getElementById('minn').value);
     const maxx = Number(document.getElementById('maxx').value);
     const min = Math.min(minn,maxx);
-    const max = Math.max(minn,maxx);
+    const max = Math.max(minn,maxx)+1;
     
     randomnum = Math.floor(Math.random() * (max - min) + min);
     num.textContent = randomnum;

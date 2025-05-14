@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px;
+    border: 10px;
+    border-radius: 5vh;
+    padding: 50px 25px;
+    height: 50vh;
+    width: 50vw;
+    /* text-align: center; */
+}
+
+#mysubmit {
+    font-size: 0.75em;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    box-shadow: 5px 5px ;
+    /* border: 5px; */
+    border-radius: 1vh ;
+}

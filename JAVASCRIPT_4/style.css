@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myh1 {
+    color: rgb(0, 136, 255);
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    padding: 5vw;
+    /* background-color: red; */
+    border-color: black;
+    border-radius: 2vw;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#textbox, #mysubmit {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 1.25em;
+    border-radius: 10px;
+}
+
+#mysubmit {
+    padding: 10px 15px;
+}
+
+#result {
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+

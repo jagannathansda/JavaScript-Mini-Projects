@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    padding: 25px;
+    height: 75vh;
+    width: 75vw;
+    box-shadow: 5px 5px 10px;
+    border: 10px;
+    border-radius: 2vw;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#box {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 1vh;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    padding: 5px;
+    border: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 1vh;
+    background-color: rgb(0, 136, 255);
+    color: white;
+    border-color: none;
+}
+
+button:hover {
+    background-color: rgb(0, 162, 255);
+}
+
+#diceResult {
+    margin: 5px;
+}
+#diceImage img{
+    margin: 5px;
+}
